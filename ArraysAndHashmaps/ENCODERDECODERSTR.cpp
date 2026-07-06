@@ -15,7 +15,7 @@ public:
         return res;
     }
 
-    vector<string> decode(string s) {
+    vector<string> decode(string s){
         vector<string> res;
         string curr = "";
         for(int i = 0;i<s.length();i++){

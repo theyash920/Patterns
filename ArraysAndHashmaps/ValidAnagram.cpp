@@ -1,3 +1,7 @@
+// Anagram : two words are anagram if they contain the same characters but in different order
+//evil    → vile
+//race    → care
+
 class Solution {
 public:
     bool isAnagram(string s, string t) {
